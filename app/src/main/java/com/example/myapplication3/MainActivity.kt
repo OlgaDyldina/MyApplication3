@@ -21,8 +21,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
        setContentView(R.layout.activity_main)
-        val root :ViewGroup! = findViewById<ViewGroup>(R.id.root)
-        val view :View! = layoutInflater.inflate(R.layout.item,root, attachToRoot: false)
-        root.addView(view)
+
     }
 }
